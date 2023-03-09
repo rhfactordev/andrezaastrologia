@@ -19,7 +19,6 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/assets/scss/main.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -49,21 +48,5 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    extractCSS: true,
-    babel: {
-      compact: true,
-    },
-    optimization: {
-      splitChunks: {
-        cacheGroups: {
-          styles: {
-            name: 'styles',
-            test: /\.(css|vue)$/,
-            chunks: 'all',
-            enforce: true
-          }
-        }
-      }
-    }
-  },
+  }
 }
