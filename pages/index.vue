@@ -1,7 +1,7 @@
 <template>
   <main>
     <section class="bg-light">
-      <div class="container my-3">
+      <div class="container">
         <div class="row">
           <div class="col-12 col-md-6">
             <div class="embed-responsive embed-responsive-16by9 my-md-5">
@@ -19,31 +19,32 @@
       </div>
     </section>
 
-    <section class="container-fluid bg-secondary-light py-5">
-      <div class="text-center mb-5">
-        <h2 class="text-white">Lorem ipsum dolor sit amet.</h2>
-        <p class="w-md-50 text-white m-auto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum sapien nisl, eu euismod lectus dictum a. Ut laoreet nibh et nulla molestie, sit amet finibus tellus consectetur.
-        </p>
-      </div>
-
-      <div class="card-deck">
-
-        <div v-for="i in 3" class="card border-light">
-          <img src="https://images.unsplash.com/photo-1511945863317-d60e146e9016?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM0fHx3b21hbnxlbnwwfDB8MHx8&auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="Imagem 1">
-          <div class="card-body">
-            <h5 class="card-title">
-              Card title
-            </h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-            </p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
-          </div>
+    <section class="bg-secondary-dark">
+      <div class="container py-5">
+        <div class="text-center mb-4 text-white">
+          <h2 class="h1">Lorem ipsum dolor sit amet.</h2>
+          <p class="w-md-50 m-auto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum sapien nisl, eu euismod lectus dictum a. Ut laoreet nibh et nulla molestie, sit amet finibus tellus consectetur.
+          </p>
         </div>
 
+        <div class="card-deck">
+          <div v-for="i in 3" class="card border-0">
+            <img src="https://images.unsplash.com/photo-1511945863317-d60e146e9016?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM0fHx3b21hbnxlbnwwfDB8MHx8&auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="Imagem 1">
+            <div class="card-body">
+              <h5 class="card-title">
+                Card title
+              </h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+
+        </div>
       </div>
     </section>
 

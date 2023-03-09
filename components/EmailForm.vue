@@ -20,8 +20,8 @@
       </select>
     </div>
 
-    <button type="submit" class="btn btn-primary btn-lg btn-block" @click.stop.prevent="submit()">
-      Quero me conhecer melhor!
+    <button type="submit" class="btn btn-primary btn-lg btn-block py-3" @click.stop.prevent="submit()">
+      <span class="h4">Quero minha previsão mensal!</span>
     </button>
   </form>
 </template>
@@ -31,7 +31,7 @@ export default {
   name: 'EmailForm',
   methods: {
     submit () {
-      this.$router.push('/checkout')
+      this.$router.push('/obrigado')
     }
   }
 }
