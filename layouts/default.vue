@@ -2,7 +2,7 @@
   <div>
     <header class="container-fluid bg-primary">
       <div class="w-50 m-auto px-5">
-        <img src="andrezaastrologia-logo-alpha.png" alt="Andreza Astrologia" class="img-fluid">
+        <img src="/andrezaastrologia-logo-alpha.png" alt="Andreza Astrologia" class="img-fluid">
       </div>
     </header>
     <Nuxt />
