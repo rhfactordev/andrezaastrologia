@@ -77,7 +77,7 @@ export default {
     return {
       title: 'Checkout de Pagamento',
       script: [
-        // { src: 'https://sdk.mercadopago.com/js/v2', pbody: true, async : false },
+        { src: 'https://sdk.mercadopago.com/js/v2', pbody: true, async : false },
         // { src: 'mercadopago.js', body: true },
       ],
       meta: [

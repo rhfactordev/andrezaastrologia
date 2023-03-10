@@ -10,20 +10,22 @@
       <div class="container">
         <div class="row pt-5 pb-3">
           <div class="col-12">
-            <img class="img-fluid  mx-auto d-block" style="max-width: 400px" src="andrezaastrologia-logo-alpha.png" alt="Andreza Astrologia" />
+            <img class="img-fluid  mx-auto d-block" style="max-width: 400px" src="/andrezaastrologia-logo-alpha.png" alt="Andreza Astrologia" />
           </div>
 
           <div class="col-12 text-center m-o">
             <ul class="list-inline">
               <li class="list-inline-item h3">
-                <a class="text-white" href="https://www.facebook.com/neovita.neovita" target="_blank"><font-awesome-icon class="mr-2 text-primary-lighter" :icon="['fab', 'facebook']"  /></a>
+                <a class="text-white" href="https://www.facebook.com/andrezarafer?mibextid=ZbWKwL" target="_blank"><font-awesome-icon class="mr-2 text-primary-lighter" :icon="['fab', 'facebook']"  /></a>
               </li>
               <li class="list-inline-item h3">
                 <a class="text-white" href="https://www.instagram.com/andrezaastrologia/" target="_blank"><font-awesome-icon class="mr-2 text-primary-lighter" :icon="['fab', 'instagram']"  /></a>
               </li>
+              <!--
               <li class="list-inline-item h3">
                 <a class="text-white" href="https://www.youtube.com/channel/UC36X4NUk7BfiyPYLfjCMe4Q" target="_blank"><font-awesome-icon class="mr-2 text-primary-lighter" :icon="['fab', 'youtube']"  /></a>
               </li>
+              -->
             </ul>
           </div>
 
