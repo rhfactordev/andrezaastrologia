@@ -1,8 +1,10 @@
 <template>
   <div>
     <header class="container-fluid bg-primary">
-      <div class="w-50 m-auto px-5">
-        <img src="/andrezaastrologia-logo-alpha.png" alt="Andreza Astrologia" class="img-fluid">
+      <div class="row">
+        <div class="col-12 col-md-6 offset-md-3">
+          <img src="/andrezaastrologia-logo-alpha.png" alt="Andreza Astrologia" class="img-fluid">
+        </div>
       </div>
     </header>
     <Nuxt />
