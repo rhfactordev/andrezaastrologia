@@ -1,6 +1,7 @@
 <template>
   <form>
 
+
     <div class="form-group">
       <input type="text" class="form-control" name="name" placeholder="Nome" v-model="signupForm.name">
     </div>
@@ -16,7 +17,8 @@
              placeholder="Cidade de Nascimento">
       <div class="input-group-append">
         <button type="button" :disabled="loading" @click="searchCity" class="input-group-text" id="basic-addon2">
-          buscar
+          <font-awesome-icon v-if="!loading" :icon="['fas','search']"  />
+          <font-awesome-icon v-else :icon="['fas','spinner']"  />
         </button>
       </div>
     </div>
@@ -28,7 +30,9 @@
     <div v-else class="input-group mb-3">
       <input type="text" class="form-control" disabled v-model="selectedCity.label">
       <div class="input-group-append">
-        <button @click="clearSelectedCity" class="input-group-text" id="basic-addon2">X</button>
+        <button @click="clearSelectedCity" class="input-group-text" id="basic-addon2">
+          <font-awesome-icon :icon="['fas','trash']"  />
+        </button>
       </div>
     </div>
     <button :disabled="loading" type="submit" class="btn btn-secondary-dark btn-lg btn-block p-3"
